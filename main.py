@@ -199,7 +199,6 @@ bot.enable_save_next_step_handlers()
 
 bot.load_next_step_handlers()
 
-# bot.polling()
 if "HEROKU" in list(os.environ.keys()):
     logger = telebot.logger
     telebot.logger.setLevel(logging.INFO)
